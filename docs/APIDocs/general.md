@@ -1,0 +1,1 @@
+All functions, objects, etc. may be accessed through the `workspsaces` object.
