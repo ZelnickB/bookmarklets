@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&subset=greek,greek-ext,latin-ext');
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background: grey;
+}
+a {
+    color: #22eeff;
+}
+a:hover {
+    text-decoration: none;
+}
+input {
+    font-family: 'Open Sans', sans-serif; 
+}
+input[type=button] {
+    cursor: pointer;
+    background: white;
+    border: 0px;
+    min-width: 125pt;
+    width: 10%;
+}
+.first {
+    margin-top: 20px;
+}
+.title {
+    font-size: 75px;
+    font-weight: bold;
+}
+.noBottomMargin {
+    margin-bottom: 0px;
+}
+.noTopMargin {
+    margin-top: 0px;
+}
+#workspaceNameInput {
+    width: 50%;
+    margin-bottom: 5px;
+}
+#workspaceSitesInput {
+    width: 100%;
+    margin-bottom: 5px;
+}
