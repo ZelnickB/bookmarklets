@@ -16,28 +16,28 @@ input {
 input[type=button] {
     cursor: pointer;
     background: white;
-    border: 0px;
+    border: 0pt;
     min-width: 125pt;
     width: 10%;
 }
 .first {
-    margin-top: 20px;
+    margin-top: 20pt;
 }
 .title {
-    font-size: 75px;
+    font-size: 75pt;
     font-weight: bold;
 }
 .noBottomMargin {
-    margin-bottom: 0px;
+    margin-bottom: 0pt;
 }
 .noTopMargin {
-    margin-top: 0px;
+    margin-top: 0pt;
 }
 #workspaceNameInput {
     width: 50%;
-    margin-bottom: 5px;
+    margin-bottom: 5pt;
 }
 #workspaceSitesInput {
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 5pt;
 }
