@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/APIDocs/main.css" type="text/css">
 <!--Update Table of Contents when creating new pages in the API documentation.-->
 # API Documentation: `compileJavaScriptFromCSV.assemble.URLArray`
 ## Summary

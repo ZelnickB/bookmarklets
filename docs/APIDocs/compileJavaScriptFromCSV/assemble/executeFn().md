@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/APIDocs/main.css" type="text/css">
 <!--Update Table of Contents when creating new pages in the API documentation.-->
 # API Documentation: `compileJavaScriptFromCSV.assemble.executeFn()`
 ## Summary
@@ -18,7 +19,7 @@ JavaScript code that opens the URLs listed in CSV format from the `CSV` paramete
 #### Type
 String
 ### Parameters
-#### `CSV`
+#### CSV
 ##### Description
 The list of URLs, including `"http://"` and `"https://"`, separated by commas with no spaces, to be compiled into JavaScript code
 ##### Type

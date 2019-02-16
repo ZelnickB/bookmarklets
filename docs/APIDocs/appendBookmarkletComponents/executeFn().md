@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/APIDocs/main.css" type="text/css">
 <!--Update Table of Contents when creating new pages in the API documentation.-->
 # API Documentation: `appendBookmarkletComponents.executeFn()`
 ## Summary
@@ -22,18 +23,18 @@ After javascript code (`javaScriptCode` parameter) is passed through this functi
 #### Type
 String
 ### Parameters
-#### `javaScriptCode`
+#### javaScriptCode
 ##### Description
 The code onto which the necessary components for a bookmarklet will be appended
 ##### Type
 `String`, required
-#### `configureJSURL`
+#### configureJSURL
 ##### Description
 **If `true`**: `javascript:` URL will be appended  
 **If `false`**: `javascript:` URL will not be appended
 ##### Type
 `boolean`, required
-#### `configureInitialAlert`
+#### configureInitialAlert
 ##### Description
 If `"false"`: No `window.confirm()` dialog will be appended to the beginning of `javaScriptCode` parameter
 If `"true,[workspaceName]"`: A `window.confirm()` dialog will be appended to the beginning of `javaScriptCode` parameter with text that says that the workspace name is `[workspaceName]`

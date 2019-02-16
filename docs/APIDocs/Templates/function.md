@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/APIDocs/main.css" type="text/css">
 <!--Update Table of Contents when creating new pages in the API documentation.-->
 # API Documentation: `Function`
 ## Summary
@@ -18,12 +19,12 @@ workspaces.fn([parameters])
 #### Type
 
 ### Parameters
-#### `param1`
+#### param1
 ##### Description
 
 ##### Type
 
-#### `param2`
+#### param2
 ##### Description
 
 ##### Type

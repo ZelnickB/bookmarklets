@@ -3,13 +3,13 @@
 # API Documentation: `compileJavaScriptFromCSV.assembleAndExecute.URLArray`
 ## Summary
 ### Supported Versions
-1.0.0+ with <span class="inBrowser" title="Exclusive feature of inBrowser.js">&#127760;</span>
+1.0.0+
 ### Use Type
 Internal  
-Used by `workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn()`
+Used by `workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`
 ### Access Method
 ```javascript
-workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray
+workspaces.createCompleteBookmarkletURLFromCSV.URLArray
 ```
 ## Details
 ### Type
@@ -17,4 +17,4 @@ Array
 ### Purpose
 Contains the array of URLs obtained by separating CSVs inputted into the function as a parameter at the commas
 ## Related
-[`workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn()`](executeFn&#40;&#41;)
+[`workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`](executeFn&#40;&#41;)
