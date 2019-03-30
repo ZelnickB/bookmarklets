@@ -12,10 +12,10 @@
 [URLArray](compileJavaScriptFromCSV/assemble/URLArray)  
 [iterations](compileJavaScriptFromCSV/assemble/iterations)  
 [compiledCode](compileJavaScriptFromCSV/assemble/compiledCode)
-### assembleAndExecute <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with workspaces.js">&#127760;</span>
-[executeFn()](compileJavaScriptFromCSV/assembleAndExecute/executeFn&#40;&#41;) <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with workspaces.js">&#127760;</span>  
-[URLArray](compileJavaScriptFromCSV/assembleAndExecute/URLArray) <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with workspaces.js">&#127760;</span>  
-[iterations](compileJavaScriptFromCSV/assembleAndExecute/iterations) <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with workspaces.js">&#127760;</span>
+### assembleAndExecute <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with Bookmarklets.js">&#127760;</span>
+[executeFn()](compileJavaScriptFromCSV/assembleAndExecute/executeFn&#40;&#41;) <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with Bookmarklets.js">&#127760;</span>  
+[URLArray](compileJavaScriptFromCSV/assembleAndExecute/URLArray) <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with Bookmarklets.js">&#127760;</span>  
+[iterations](compileJavaScriptFromCSV/assembleAndExecute/iterations) <span class="inBrowser" title="Only available while using inBrowser.js in conjunction with Bookmarklets.js">&#127760;</span>
 ## createCompleteBookmarkletURLFromCSV
 [executeFn()](createCompleteBookmarkletURLFromCSV/executeFn)
 [URLArray](createCompleteBookmarkletURLFromCSV/URLArray)

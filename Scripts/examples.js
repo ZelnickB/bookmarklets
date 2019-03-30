@@ -1,4 +1,4 @@
-//////This file contains examples that may be used in order to test workspaces.js. These examples will not be able to run without running workspaces.js before it.
+//////This file contains examples that may be used in order to test Bookmarklets.js. These examples will not be able to run without running Bookmarklets.js before it.
 ////workspaces.compileJavaScriptFromCSV
 //workspaces.compileJavaScriptFromCSV.assemble.executeFn()
 workspaces.compileJavaScriptFromCSV.assemble.executeFn("https://www.google.com,https://www.bing.com,https://www.yahoo.com,https://www.twitter.com,https://www.facebook.com,https://www.youtube.com,https://www.wikipedia.org");
