@@ -9,10 +9,7 @@ An example of how to pass this value into a Bookmarklets.js function might be:
 bookmarklets.workspaces.compileJavaScriptFromCSV.assemble("google.com,bing.com,yahoo.com,twitter.com,facebook.com,youtube.com,wikipedia.org")
 ```
 # Links
-## API Docs
-[General API Information](APIDocs/general)  
-[API Docs Table of Contents](APIDocs/tableOfContents)  
-[Examples](APIDocs/examples)
+*This section is still under development*
 ## Other
 *This section is still under development*
 # Summary of API
