@@ -7,10 +7,10 @@
 ### Use Type
 "Internal" or "External"  
 If "Internal":
-Used by `workspaces...`
+Used by `bookmarklets.workspaces...`
 ### Access Method
 ```javascript
-workspaces.variable
+bookmarklets.workspaces.variable
 ```
 ## Details
 ### Type

@@ -8,7 +8,7 @@
 
 ### Access Method
 ```javascript
-workspaces.fn([parameters])
+bookmarklets.workspaces.fn([parameters])
 ```
 ### Other Information
 *No content*
