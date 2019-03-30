@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/APIDocs/main.css" type="text/css">
 <!--Update Table of Contents when creating new pages in the API documentation.-->
-# API Documentation: `compileJavaScriptFromCSV.assemble.executeFn()`
+# API Documentation: `compileJavaScriptFromCSV.assemble()`
 ## Summary
 ### Supported Versions
 1.0.0+
@@ -8,7 +8,7 @@
 Compiles JavaScript code from a string of URLs in comma separated values (CSV) format
 ### Access Method
 ```javascript
-bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.executeFn([parameters])
+bookmarklets.workspaces.compileJavaScriptFromCSV.assemble([parameters])
 ```
 ### Other Information
 *No content*

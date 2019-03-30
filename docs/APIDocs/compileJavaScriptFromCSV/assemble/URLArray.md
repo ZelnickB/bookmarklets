@@ -6,7 +6,7 @@
 1.0.0+
 ### Use Type
 Internal  
-Used by `bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.executeFn()`
+Used by `bookmarklets.workspaces.compileJavaScriptFromCSV.assemble()`
 ### Access Method
 ```javascript
 bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.URLArray
@@ -17,4 +17,4 @@ Array
 ### Purpose
 Contains the array of URLs obtained by separating CSVs inputted into the function as a parameter at the commas
 ## Related
-[`bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.executeFn()`](executeFn&#40;&#41;)
+[`bookmarklets.workspaces.compileJavaScriptFromCSV.assemble()`](executeFn&#40;&#41;)

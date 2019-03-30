@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/APIDocs/main.css" type="text/css">
 <!--Update Table of Contents when creating new pages in the API documentation.-->
-# API Documentation: `appendBookmarkletComponents.executeFn()`
+# API Documentation: `appendBookmarkletComponents()`
 ## Summary
 ### Supported Versions
 1.0.0+
@@ -8,7 +8,7 @@
 Adds necessary parts of a link to previously generated JavaScript code before it is able to be saved as a bookmarklet
 ### Access Method
 ```javascript
-bookmarklets.workspaces.appendBookmarkletComponents.executeFn([parameters])
+bookmarklets.workspaces.appendBookmarkletComponents([parameters])
 ```
 ### Other Information
 *No content*

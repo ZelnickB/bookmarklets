@@ -26,13 +26,13 @@
                     compiledURL: undefined
                 }
             };
-            workspaces.appendBookmarkletComponents.executeFn = function (javaScriptCode, configureJSURL, configureInitialAlert) {
+            workspaces.appendBookmarkletComponents = function (javaScriptCode, configureJSURL, configureInitialAlert) {
                 workspaces.appendBookmarkletComponents.stringToBeAppended = "";
                 if (javaScriptCode === undefined || configureJSURL === undefined || configureInitialAlert === undefined) {
-                    throw "Missing parameter(s) in workspaces.appendBookmarkletComponents.executeFn()";
+                    throw "Missing parameter(s) in workspaces.appendBookmarkletComponents()";
                 }
                 if (typeof javaScriptCode !== "string" || typeof configureJSURL !== "boolean" || typeof configureInitialAlert !== "string") {
-                    throw "Parameter of incorrect type in workspaces.appendBookmarkletComponents.executeFn()";
+                    throw "Parameter of incorrect type in workspaces.appendBookmarkletComponents()";
                 }
                 if (configureJSURL) {
                     workspaces.appendBookmarkletComponents.stringToBeAppended = workspaces.appendBookmarkletComponents.stringToBeAppended.concat("javascript:");
@@ -49,12 +49,12 @@
                         return workspaces.appendBookmarkletComponents.stringToBeAppended + javaScriptCode;
                     }
             };
-            workspaces.compileJavaScriptFromCSV.assemble.executeFn = function (CSV) {
+            workspaces.compileJavaScriptFromCSV.assemble = function (CSV) {
                 if (CSV === undefined) {
-                    throw "Missing parameter(s) in workspaces.compileJavaScriptFromCSV.assemble.executeFn()";
+                    throw "Missing parameter(s) in workspaces.compileJavaScriptFromCSV.assemble()";
                 }
                 if (typeof CSV !== "string") {
-                    throw "Parameter of incorrect type in workspaces.compileJavaScriptFromCSV.assemble.executeFn()";
+                    throw "Parameter of incorrect type in workspaces.compileJavaScriptFromCSV.assemble()";
                 }
                 workspaces.compileJavaScriptFromCSV.assemble.URLArray = CSV.split(",");
                 workspaces.compileJavaScriptFromCSV.assemble.iterations = 0;
@@ -65,12 +65,12 @@
                 }
                 return workspaces.compileJavaScriptFromCSV.compiledCode;
             };
-            workspaces.createCompleteBookmarkletURLFromCSV.executeFn = function (CSV, workspaceTitle) {
+            workspaces.createCompleteBookmarkletURLFromCSV = function (CSV, workspaceTitle) {
                 if (CSV === undefined) {
-                    throw "Missing parameter(s) in workspaces.createCompleteBookmarkletURLFromCSV.executeFn()";
+                    throw "Missing parameter(s) in workspaces.createCompleteBookmarkletURLFromCSV()";
                 }
                 if (typeof CSV !== "string") {
-                    throw "Parameter of incorrect type in workspaces.createCompleteBookmarkletURLFromCSV.executeFn()";
+                    throw "Parameter of incorrect type in workspaces.createCompleteBookmarkletURLFromCSV()";
                 }
                 workspaces.createCompleteBookmarkletURLFromCSV.iterations = 0;
                 workspaces.createCompleteBookmarkletURLFromCSV.URLArray = CSV.split(",");
@@ -114,7 +114,7 @@
         function gen() {
             document.getElementById("bookmarkletLink").removeAttribute("hidden");
             document.getElementById("bookmarkletLink").innerHTML = document.getElementById("workspaceNameInput").value;
-            document.getElementById("bookmarkletLink").href = workspaces.createCompleteBookmarkletURLFromCSV.executeFn(document.getElementById("workspaceSitesInput").value, document.getElementById("workspaceNameInput").value);
+            document.getElementById("bookmarkletLink").href = workspaces.createCompleteBookmarkletURLFromCSV(document.getElementById("workspaceSitesInput").value, document.getElementById("workspaceNameInput").value);
         }
     </script>
 </html>

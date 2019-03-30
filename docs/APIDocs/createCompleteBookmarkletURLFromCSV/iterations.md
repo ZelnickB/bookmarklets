@@ -6,7 +6,7 @@
 1.0.0+
 ### Use Type
 Internal  
-Used by `bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`
+Used by `bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV()`
 ### Access Method
 ```javascript
 bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.iterations
@@ -17,4 +17,4 @@ Number
 ### Purpose
 Contains number of cycle through array of URLs while compiling it into code
 ## Related
-[`bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`](executeFn&#40;&#41;)
+[`bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV()`](executeFn&#40;&#41;)

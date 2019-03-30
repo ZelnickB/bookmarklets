@@ -6,7 +6,7 @@
 1.0.0+
 ### Use Type  
 Internal  
-Used by `bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.executeFn()`
+Used by `bookmarklets.workspaces.compileJavaScriptFromCSV.assemble()`
 ### Access Method
 ```javascript
 bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.compiledCode
@@ -17,4 +17,4 @@ String
 ### Purpose
 Contains the JavaScript code that will be returned when the function finishes running
 ## Related
-[`bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.executeFn()`](executeFn&#40;&#41;)
+[`bookmarklets.workspaces.compileJavaScriptFromCSV.assemble()`](executeFn&#40;&#41;)

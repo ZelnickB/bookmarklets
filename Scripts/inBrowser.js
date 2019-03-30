@@ -1,9 +1,9 @@
-bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn = function (CSV) {
+bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute = function (CSV) {
     if(CSV == undefined) {
         throw "Missing parameter(s)";
     }
     if (typeof CSV !== "string") {
-        throw "Parameter of incorrect type in bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn()";
+        throw "Parameter of incorrect type in bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute()";
     }
     bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray = CSV.split(",");
     bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations = 0;
