@@ -8,7 +8,7 @@
 Adds necessary parts of a link to previously generated JavaScript code before it is able to be saved as a bookmarklet
 ### Access Method
 ```javascript
-workspaces.appendBookmarkletComponents.executeFn([parameters])
+bookmarklets.workspaces.appendBookmarkletComponents.executeFn([parameters])
 ```
 ### Other Information
 *No content*

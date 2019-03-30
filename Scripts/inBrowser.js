@@ -1,15 +1,15 @@
-workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn = function (CSV) {
+bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn = function (CSV) {
     if(CSV == undefined) {
         throw "Missing parameter(s)";
     }
     if (typeof CSV !== "string") {
-        throw "Parameter of incorrect type in workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn()";
+        throw "Parameter of incorrect type in bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn()";
     }
-    workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray = CSV.split(",");
-    workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations = 0;
-    while (workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations < workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray.length) {
-        window.open(workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray[workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations]);
-        workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations++;
+    bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray = CSV.split(",");
+    bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations = 0;
+    while (bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations < bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray.length) {
+        window.open(bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray[bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations]);
+        bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations++;
     }
-    return workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray;
+    return bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray;
 };

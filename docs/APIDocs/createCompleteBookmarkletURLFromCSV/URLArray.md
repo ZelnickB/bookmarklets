@@ -6,10 +6,10 @@
 1.0.0+
 ### Use Type
 Internal  
-Used by `workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`
+Used by `bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`
 ### Access Method
 ```javascript
-workspaces.createCompleteBookmarkletURLFromCSV.URLArray
+bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.URLArray
 ```
 ## Details
 ### Type
@@ -17,4 +17,4 @@ Array
 ### Purpose
 Contains the array of URLs obtained by separating CSVs inputted into the function as a parameter at the commas
 ## Related
-[`workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`](executeFn&#40;&#41;)
+[`bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`](executeFn&#40;&#41;)

@@ -8,7 +8,7 @@
 Compiles JavaScript code from a string of URLs in comma separated values (CSV) format and executes it; does not return resulting code
 ### Access Method
 ```javascript
-workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn([parameters])
+bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn([parameters])
 ```
 ### Other Information
 *No content*
