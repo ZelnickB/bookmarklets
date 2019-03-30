@@ -6,7 +6,7 @@ By using a `javascript:` URL, Bookmarklets.js is able to create a bookmarklet (w
 ```
 An example of how to pass this value into a Bookmarklets.js function might be:
 ```javascript
-bookmarklets.workspaces.compileJavaScriptFromCSV.assemble.executeFn("google.com,bing.com,yahoo.com,twitter.com,facebook.com,youtube.com,wikipedia.org")
+bookmarklets.workspaces.compileJavaScriptFromCSV.assemble("google.com,bing.com,yahoo.com,twitter.com,facebook.com,youtube.com,wikipedia.org")
 ```
 # Links
 ## API Docs

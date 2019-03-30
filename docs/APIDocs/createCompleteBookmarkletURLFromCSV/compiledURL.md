@@ -6,7 +6,7 @@
 1.0.0+
 ### Use Type  
 Internal  
-Used by `bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`
+Used by `bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV()`
 ### Access Method
 ```javascript
 bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.compiledCode
@@ -17,4 +17,4 @@ String
 ### Purpose
 Contains the JavaScript URL that will be returned when the function finishes running
 ## Related
-[`bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.executeFn()`](executeFn&#40;&#41;)
+[`bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV()`](executeFn&#40;&#41;)

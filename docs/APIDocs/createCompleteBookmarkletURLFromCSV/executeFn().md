@@ -8,7 +8,7 @@
 Creates a complete bookmarklet URL from a string in CSV format and, optionally, a workpsace title
 ### Access Method
 ```javascript
-bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV.executeFn(CSV, workspaceTitle)
+bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV(CSV, workspaceTitle)
 ```
 ### Other Information
 *No content*

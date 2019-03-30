@@ -6,7 +6,7 @@
 1.0.0+ with <span class="inBrowser" title="Exclusive feature of inBrowser.js">&#127760;</span>
 ### Use Type
 Internal  
-Used by `bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn()`
+Used by `bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute()`
 ### Access Method
 ```javascript
 bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations
@@ -17,4 +17,4 @@ Number
 ### Purpose
 Contains number of cycle through array of URLs while compiling it into code
 ## Related
-[`bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.executeFn()`](executeFn&#40;&#41;)
+[`bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute()`](executeFn&#40;&#41;)
