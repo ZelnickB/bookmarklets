@@ -1,6 +1,9 @@
 var bookmarklets = {
     workspaces: {
         // Functions are declared separately
+        compileJavaScriptFromCSV: {
+            // Functions are declared separately
+        }
     }
 };
 bookmarklets.workspaces.appendBookmarkletComponents = function (javaScriptCode, configureJSURL, configureInitialAlert) {
