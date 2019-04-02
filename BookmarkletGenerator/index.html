@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Workspace Bookmarklet Generator</title>
         <link rel="stylesheet" href="main.css" type="text/css">
-        <script type="text/javascript" href="/Scripts/bookmarklets.js"></script>
+        <script type="text/javascript" src="/Scripts/bookmarklets.js"></script>
     </head>
     <body>
         <p class="title noBottomMargin noTopMargin">Workspace Bookmarklet Generator</p>
@@ -26,8 +26,8 @@
     <script>
         function gen() {
             document.getElementById("bookmarkletLink").removeAttribute("hidden");
-            document.getElementById("bookmarkletLink").innerHTML = document.getElementById("workspaceNameInput").value;
-            document.getElementById("bookmarkletLink").href = workspaces.createCompleteBookmarkletURLFromCSV(document.getElementById("workspaceSitesInput").value, document.getElementById("workspaceNameInput").value);
+            document.getElementById("bookmarkletLink").textContent = document.getElementById("workspaceNameInput").value;
+            document.getElementById("bookmarkletLink").href = bookmarklets.workspaces.createCompleteBookmarkletURLFromCSV(document.getElementById("workspaceSitesInput").value, document.getElementById("workspaceNameInput").value);
         }
     </script>
 </html>
