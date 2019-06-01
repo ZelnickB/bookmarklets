@@ -1,1 +1,0 @@
-gem "bulma-clean-theme"
