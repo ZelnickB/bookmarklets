@@ -1,5 +1,5 @@
 ---
-title: Workspaces.js Home
+title: Bookmarklets.js Home
 show_sidebar: false
 menubar: menubar
 ---
