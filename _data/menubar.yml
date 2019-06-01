@@ -1,0 +1,4 @@
+- label: Main Menu
+  items:
+    - name: View on GitHub
+      link: "https://www.github.com/NovaDevelopment/workspaces.js"
