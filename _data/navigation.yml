@@ -1,7 +1,5 @@
 - name: GitHub Repository
   dropdown:
-    - name: GitHub Repository
-      link: "https://www.github.com/NovaDevelopment/bookmarklets.js"
     - name: View Repository
       link: "https://www.github.com/NovaDevelopment/bookmarklets.js"
     - name: GitHub Wiki (API Docs)
