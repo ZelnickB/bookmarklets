@@ -8,6 +8,6 @@
 - name: Tools
   dropdown:
     - name: Workspace Bookmarklet Generator
-      link: "/tools/BookmarkletGenerator/index.html"
+      link: "./bookmarkletgenerator.html/"
     - name: List of Useful Bookmarklets
       link: "/Gallery/"
