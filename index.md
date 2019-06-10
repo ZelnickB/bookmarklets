@@ -4,6 +4,7 @@ title: Bookmarklets.js Home
 # Links
 - [Bookmarklet Generator](/Tools/BookmarkletGenerator)
 - [Bookmarklets Gallery](/Tools/BookmarkletsGallery)
+
 # Summary of Purpose
 Bookmarklets.js is a simple JavaScript library for creating and manipulating custom bookmarklets. Formerly known as Workspaces.js, Bookmarklets.js includes a revolutionary feature that quickly generates a workspace bookmarklet that automatically opens multiple webpages, rather than only one. It is straightforward to use and easy to implement on HTML webpages.  
 By using a `javascript:` URL, the Workspaces feature is able to create a bookmarklet (which can run on any webpage except for the default new tab page) that executes a series of functions to open all of the pages specified. User input information, such as a list of URLs in CSV (comma separated values) format (as shown below) may be passed into a Workpsaces.js function in order to generate a bookmarklet.
