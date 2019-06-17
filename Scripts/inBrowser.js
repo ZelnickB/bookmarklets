@@ -1,15 +1,14 @@
-bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute = function (CSV) {
+bookmarklets.workspaces.compileJavaScript.assembleAndExecute = function (URLArray) {
     if(CSV == undefined) {
-        throw "Missing parameter(s)";
+        throw "Missing parameter(s) in bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute()";
     }
-    if (typeof CSV !== "string") {
+    if (typeof URLArray !== "object") {
         throw "Parameter of incorrect type in bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute()";
     }
-    bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray = CSV.split(",");
-    bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations = 0;
-    while (bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations < bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray.length) {
-        window.open(bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray[bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations]);
-        bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.iterations++;
+    let iterations = 0;
+    while (iterations < URLArray.length) {
+        window.open(URLArray[iterations]);
+        iterations++;
     }
-    return bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute.URLArray;
+    return undefined;
 };
