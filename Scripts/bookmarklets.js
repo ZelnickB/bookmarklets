@@ -1,3 +1,4 @@
+"use strict";
 var bookmarklets = {
     workspaces: {
         appendBookmarkletComponents: function (javaScriptCode, configureJSURL, configureInitialAlert) {

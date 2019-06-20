@@ -1,5 +1,6 @@
+"use strict";
 bookmarklets.workspaces.compileJavaScript.assembleAndExecute = function (URLArray) {
-    if(CSV == undefined) {
+    if (CSV === undefined) {
         throw "Missing parameter(s) in bookmarklets.workspaces.compileJavaScriptFromCSV.assembleAndExecute()";
     }
     if (typeof URLArray !== "object") {
