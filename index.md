@@ -1,7 +1,7 @@
 ---
 title: Bookmarklets.js Home
 ---
-[![JavaScript Standard Code Style Seal](https://cdn.rawgit.com/standard/standard/master/badge.svg "JS Standard Code Style may not be enforced between releases.")](https://standardjs.com/)  
+[![JavaScript Standard Code Style Seal](https://cdn.rawgit.com/standard/standard/master/badge.svg "JS Standard Code Style may not be enforced between releases or during pre-releases.")](https://standardjs.com/)  
 
 [![License](https://img.shields.io/github/license/NovaDevelopment/bookmarklets.js.svg?style=for-the-badge "All open-source projects derived from this repository must follow the conditions laid out in this license.")](https://github.com/NovaDevelopment/bookmarklets.js/blob/master/LICENSE)
 ![GitHub Code Size](https://img.shields.io/github/languages/code-size/NovaDevelopment/workspaces.js.svg?style=for-the-badge&logo=github)
