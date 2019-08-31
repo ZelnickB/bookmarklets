@@ -41,3 +41,4 @@ Alternatively, you can access the original JavaScript file (without minification
 ## Using the API
 All variables, functions, constants, etc. associated with Bookmarklets.js may be accessed via the `bookmarklets` object.  
 For more detailed information on the API, see the [Wiki on GitHub](https://github.com/NovaDevelopment/bookmarklets.js/wiki).
+<!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d6a80132ce82e69"></script> 
